@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #036;
+}
+.text-blue{
+    color: #036;
+}
+  .extra-bold {
+    font-weight: 900; /* Extra bold */
+  }
+  .bg-blue{
+    background-color: rgb(0, 51, 102);
+  }
+  .bg-light{
+    background-color: white;
+  }
+  hr{
+    border-width: 3px;
+    color: #036;
+  }
+  .container .text-light,.text-blue{
+    z-index: 1000;
+  }
+  footer{
+    bottom: 0px;
+  }
+  .btn-check:checked + .btn {
+    background-color: #0d6efd; /* Primary color */
+    border-color: #0d6efd; /* Primary color border */
+    color: #fff; /* Text color when selected */
+}
+
+.btn-primary-soft-check {
+    border-color: #0d6efd; /* Default border color */
+    color: #0d6efd; /* Default text color */
+}
+
+.btn-primary-soft-check:not(:checked) {
+    background-color: #f8f9fa; /* Light background for unselected state */
+}

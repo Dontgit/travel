@@ -173,14 +173,77 @@
         </li>
       </ul>
     </div>
-
   <!-- Return Stops End  -->
+          <hr class="my-0" /> 
+            <div class="py-3 d-flex justify-content-between">
+              <input type="reset" class="btn text-blue fw-semibold" value="Clear All">
+              <input type="submit" class="btn btn-primary" value="Filter Result">
+            </div>
+
           </form>
         </div>
 
-        <div class="container col-7">p</div>
+        <div class="container col-7">
+          <!-- flight card start  -->
+          <div class="card p-3">
+
+            <!-- head card section start  -->
+             <div class="card-head d-flex align-items-center justify-content-between">
+                <div class="airlane-section col-8 d-flex align-items-center">
+                  <img src="13.svg" class="col-1" alt="" srcset="">
+                  <p class="fw-semibold fs-5 ps-3">Nama Airlane (code - 123456)</p>
+                </div>
+                <div class="class-section col-4 d-flex align-items-center">
+                  <p class="fw-semibold fs-6 text-secondary">Travel Class : </p>
+                  <p class="fw-semibold fs-6 px-1"> Economy</p>
+                </div>
+             </div>
+            <!-- head card section end  -->
+
+             <!-- body card section start  -->
+              <div class="card-body">
+              <!-- body-inti -->
+              <div class="d-flex">
+
+                <!-- waktu berangkat start  -->
+                <div class="col-3 pe-2">
+                  <h2 class="fw-bold">14.50</h2>
+                  <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
+                    <p>Code - Terminal 2 Kota, Negara</p>
+                  </div>
+                  <!-- waktu berangkat end  -->
+                  
+                  <!-- lama perjalanan start  -->
+                  <div class="col-3 px-1">
+                    <h4 class="fw-bold text-center">9hr 50min</h4>
+                    <div class="position-relative my-4">
+                      <hr class="opacitiy-5 position-relative">
+                      <div class="icon-md bg-primary p-2 rounded-circle position-absolute text-white top-50 start-50 translate-middle">
+                        <i class="fa-solid fa-plane"></i>
+                      </div>
+                    </div>
+                  </div>
+                    <!-- lama perjalanan end  -->
+                  <!-- waktu tiba start  -->
+                  <div class="col-3 px-1">
+                    <h2 class="fw-bold">14.50</h2>
+                    <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
+                    <p>Code - Terminal 2 Kota, Negara</p>
+                  </div>
+                  <!-- waktu tiba end  -->
+
+                
+              </div>
+            </div>
+             <!-- body card section end  -->
+
+            </div>
+            <!-- flight card end  -->
+        
+        </div>
       </div>
       <!-- content end  -->
+    
     </div>
     <script src="script.js"></script>
     <!-- spacer -->

@@ -13,7 +13,7 @@
     ?>
   <body>
     <div class="py-3"></div>
-    <div class="container my-2">
+    <div class="container-fluid my-2">
       <!-- information text  start-->
       <div class="container">
         <div class="information-text">
@@ -31,9 +31,9 @@
       <div class="py-3"></div>
 
       <!-- content start  -->
-      <div class="container my-2 d-flex justify-content-between">
+      <div class="container-fluid my-2 d-flex justify-content-between">
         <!-- form start  -->
-        <div class="container col-4 shadow rounded-1 px-4">
+        <div class="container-fluid col-3 shadow rounded-1 px-4">
           <form action="">
             <!-- popular filter start -->
             <div class="py-3">
@@ -183,7 +183,7 @@
           </form>
         </div>
 
-        <div class="container col-7">
+        <div class="container col-8">
           <!-- flight card start  -->
           <div class="card p-3">
 
@@ -193,7 +193,7 @@
                   <img src="13.svg" class="col-1" alt="" srcset="">
                   <p class="fw-semibold fs-5 ps-3">Nama Airlane (code - 123456)</p>
                 </div>
-                <div class="class-section col-4 d-flex align-items-center">
+                <div class="class-section col-4 d-flex align-items-center justify-content-end px-2">
                   <p class="fw-semibold fs-6 text-secondary">Travel Class : </p>
                   <p class="fw-semibold fs-6 px-1"> Economy</p>
                 </div>
@@ -203,7 +203,7 @@
              <!-- body card section start  -->
               <div class="card-body">
               <!-- body-inti -->
-              <div class="d-flex">
+              <div class="d-flex justify-content-between">
 
                 <!-- waktu berangkat start  -->
                 <div class="col-3 pe-2">
@@ -214,7 +214,7 @@
                   <!-- waktu berangkat end  -->
                   
                   <!-- lama perjalanan start  -->
-                  <div class="col-3 px-1">
+                  <div class="col-3 px-2">
                     <h4 class="fw-bold text-center">9hr 50min</h4>
                     <div class="position-relative my-4">
                       <hr class="opacitiy-5 position-relative">
@@ -225,12 +225,19 @@
                   </div>
                     <!-- lama perjalanan end  -->
                   <!-- waktu tiba start  -->
-                  <div class="col-3 px-1">
+                  <div class="col-3 px-2">
                     <h2 class="fw-bold">14.50</h2>
                     <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                     <p>Code - Terminal 2 Kota, Negara</p>
                   </div>
                   <!-- waktu tiba end  -->
+
+                  <!-- price & booking start -->
+                   <div class="col-3 text-end px-1">
+                    <h2 class="fw-bold">$18,500</h2>
+                    <button class="btn btn-primary">Book Now</button>
+                   </div>
+                  <!-- price & booking end -->
 
                 
               </div>

@@ -85,11 +85,11 @@
               <h5 class="card-title">
                 <a href="hotel-detail.html">Hotel Baljees Regency</a>
               </h5>
-              <ul class="d-flex justify-content-between mb-2 mb-sm-3">
-                <li class="me-2">Air Conditioning</li>
-                <li class="me-2">Wifi</li>
-                <li class="me-2">Kitchen</li>
-                <li class="">Pool</li>
+              <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
+                <li class="me-2 fw-semibold">Air Conditioning</li>
+                <li class="me-2 fw-semibold">Wifi</li>
+                <li class="me-2 fw-semibold">Kitchen</li>
+                <li class="me-2 fw-semibold">Pool</li>
               </ul>
             </div>
             <!-- Card body END -->
@@ -183,11 +183,11 @@
               <h5 class="card-title">
                 <a href="hotel-detail.html">Hotel Baljees Regency</a>
               </h5>
-              <ul class="d-flex justify-content-between mb-2 mb-sm-3">
-                <li class="me-2">Air Conditioning</li>
-                <li class="me-2">Wifi</li>
-                <li class="me-2">Kitchen</li>
-                <li class="">Pool</li>
+              <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
+                <li class="me-2 fw-semibold">Air Conditioning</li>
+                <li class="me-2 fw-semibold">Wifi</li>
+                <li class="me-2 fw-semibold">Kitchen</li>
+                <li class="me-2 fw-semibold">Pool</li>
               </ul>
             </div>
             <div class="card-footer pt-2">
@@ -280,11 +280,11 @@
               <h5 class="card-title">
                 <a href="hotel-detail.html">Hotel Baljees Regency</a>
               </h5>
-              <ul class="d-flex justify-content-between mb-2 mb-sm-3">
-                <li class="me-2">Air Conditioning</li>
-                <li class="me-2">Wifi</li>
-                <li class="me-2">Kitchen</li>
-                <li class="">Pool</li>
+              <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
+                <li class="me-2 fw-semibold">Air Conditioning</li>
+                <li class="me-2 fw-semibold">Wifi</li>
+                <li class="me-2 fw-semibold">Kitchen</li>
+                <li class="me-2 fw-semibold">Pool</li>
               </ul>
             </div>
             <div class="card-footer pt-2">
@@ -374,11 +374,11 @@
               <h5 class="card-title">
                 <a href="hotel-detail.html">Hotel Baljees Regency</a>
               </h5>
-              <ul class="d-flex justify-content-between mb-2 mb-sm-3">
-                <li class="me-2">Air Conditioning</li>
-                <li class="me-2">Wifi</li>
-                <li class="me-2">Kitchen</li>
-                <li class="">Pool</li>
+              <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
+                <li class="me-2 fw-semibold">Air Conditioning</li>
+                <li class="me-2 fw-semibold">Wifi</li>
+                <li class="me-2 fw-semibold">Kitchen</li>
+                <li class="me-2 fw-semibold">Pool</li>
               </ul>
             </div>
             <div class="card-footer pt-2">

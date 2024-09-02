@@ -8,10 +8,10 @@
                 <a class="nav-link text-light px-2 " aria-current="page" href="/home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light px-2" href="/DestinasiWisata">Destinasi Wisata</a>
+                <a class="nav-link text-light px-2" href="Flight.php">Flight</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light px-2" href="/PaketWisata">Paket Wisata</a>
+                <a class="nav-link text-light px-2" href="/Hotel.php">Hotel</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light px-2" href="/Testimoni">Testimoni</a>

@@ -83,7 +83,7 @@
                 ></a>
               </div>
               <h5 class="card-title">
-                <a href="hotel-detail.html">Hotel Baljees Regency</a>
+                <a href="hoteldetail.php">Hotel Baljees Regency</a>
               </h5>
               <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
                 <li class="me-2 fw-semibold">Air Conditioning</li>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="m-2 mt-sm-0">
                   <a
-                    href="hotel-detail.html"
+                    href="hoteldetail.php"
                     class="btn btn-sm btn-primary mb-0 w-100"
                     >View Detail <i class="fa-solid fa-arrow-right"></i
                   ></a>
@@ -181,7 +181,7 @@
                 ></a>
               </div>
               <h5 class="card-title">
-                <a href="hotel-detail.html">Hotel Baljees Regency</a>
+                <a href="hoteldetail.php">Hotel Baljees Regency</a>
               </h5>
               <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
                 <li class="me-2 fw-semibold">Air Conditioning</li>
@@ -201,7 +201,7 @@
                 </div>
                 <div class="m-2 mt-sm-0">
                   <a
-                    href="hotel-detail.html"
+                    href="hoteldetail.php"
                     class="btn btn-sm btn-primary mb-0 w-100"
                     >View Detail <i class="fa-solid fa-arrow-right"></i
                   ></a>
@@ -278,7 +278,7 @@
                 ></a>
               </div>
               <h5 class="card-title">
-                <a href="hotel-detail.html">Hotel Baljees Regency</a>
+                <a href="hoteldetail.php">Hotel Baljees Regency</a>
               </h5>
               <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
                 <li class="me-2 fw-semibold">Air Conditioning</li>
@@ -298,7 +298,7 @@
                 </div>
                 <div class="m-2 mt-sm-0">
                   <a
-                    href="hotel-detail.html"
+                    href="hoteldetail.php"
                     class="btn btn-sm btn-primary mb-0 w-100"
                     >View Detail <i class="fa-solid fa-arrow-right"></i
                   ></a>
@@ -372,7 +372,7 @@
                 ></a>
               </div>
               <h5 class="card-title">
-                <a href="hotel-detail.html">Hotel Baljees Regency</a>
+                <a href="hoteldetail.php">Hotel Baljees Regency</a>
               </h5>
               <ul class="d-flex list-inline justify-content-between mb-2 mb-sm-3">
                 <li class="me-2 fw-semibold">Air Conditioning</li>
@@ -392,7 +392,7 @@
                 </div>
                 <div class="m-2 mt-sm-0">
                   <a
-                    href="hotel-detail.html"
+                    href="hoteldetail.php"
                     class="btn btn-sm btn-primary mb-0 w-100"
                     >View Detail <i class="fa-solid fa-arrow-right"></i
                   ></a>

@@ -18,7 +18,7 @@
       <!-- information text  start-->
         <div class="container">
           <div class="information-text">
-            <h2 class="fw-bold">09 Flight Available</h2>
+            <h3 class="fw-bold">09 Flight Available</h3>
             <div class="d-flex align-items-center">
               <h5 class="fw-bold">5 Jan 2024</h5>
               <h4 class="fw-bold mx-2">-</h4>
@@ -285,7 +285,7 @@
                         <div class="d-flex justify-content-between">
                           <!-- waktu berangkat start  -->
                             <div class="col-3 pe-2">
-                              <h2 class="fw-bold">14.50</h2>
+                              <h3 class="fw-bold">14.50</h3>
                               <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                               <p>Code - Terminal 2 Kota, Negara</p>
                             </div>
@@ -307,7 +307,7 @@
                           
                           <!-- waktu tiba start  -->
                             <div class="col-3 px-2">
-                              <h2 class="fw-bold">14.50</h2>
+                              <h3 class="fw-bold">14.50</h3>
                               <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                               <p>Code - Terminal 2 Kota, Negara</p>
                             </div>
@@ -315,7 +315,7 @@
 
                           <!-- price & booking start -->
                             <div class="col-3 text-end px-1">
-                              <h2 class="fw-bold">$18,500</h2>
+                              <h3 class="fw-bold">$18,500</h3>
                               <button class="btn btn-primary">Book Now</button>
                             </div>
                           <!-- price & booking end -->
@@ -368,7 +368,7 @@
                           <div class="d-flex justify-content-between">
                             <!-- waktu berangkat start  -->
                               <div class="col-3 pe-2">
-                                <h2 class="fw-bold">14.50</h2>
+                                <h3 class="fw-bold">14.50</h3>
                                 <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                                 <p>Code - Terminal 2 Kota, Negara</p>
                               </div>
@@ -390,7 +390,7 @@
                             
                             <!-- waktu tiba start  -->
                               <div class="col-3 px-2">
-                                <h2 class="fw-bold">14.50</h2>
+                                <h3 class="fw-bold">14.50</h3>
                                 <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                                 <p>Code - Terminal 2 Kota, Negara</p>
                               </div>
@@ -398,7 +398,7 @@
 
                             <!-- price & booking start -->
                               <div class="col-3 text-end px-1">
-                                <h2 class="fw-bold">$18,500</h2>
+                                <h3 class="fw-bold">$18,500</h3>
                                 <button class="btn btn-primary">Book Now</button>
                               </div>
                             <!-- price & booking end -->
@@ -450,7 +450,7 @@
                             <div class="d-flex justify-content-between">
                               <!-- waktu berangkat start  -->
                                 <div class="col-3 pe-2">
-                                  <h2 class="fw-bold">14.50</h2>
+                                  <h3 class="fw-bold">14.50</h3>
                                   <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                                   <p>Code - Terminal 2 Kota, Negara</p>
                                 </div>
@@ -472,7 +472,7 @@
                               
                               <!-- waktu tiba start  -->
                                 <div class="col-3 px-2">
-                                  <h2 class="fw-bold">14.50</h2>
+                                  <h3 class="fw-bold">14.50</h3>
                                   <h6 class="fw-bold">Sun, 30 Jan 2023</h6>
                                   <p>Code - Terminal 2 Kota, Negara</p>
                                 </div>
@@ -480,7 +480,7 @@
 
                               <!-- price & booking start -->
                                 <div class="col-3 text-end px-1">
-                                  <h2 class="fw-bold">$18,500</h2>
+                                  <h3 class="fw-bold">$18,500</h3>
                                   <button class="btn btn-primary">Book Now</button>
                                 </div>
                               <!-- price & booking end -->

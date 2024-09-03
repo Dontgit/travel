@@ -233,139 +233,411 @@
                                     <hr class="my-4">
                                 <!-- room title section end -->
                                 <!-- list section start -->
-                                    <div class="card p-4 d-flex">
+                                    <div class="card p-4 mb-4 border-0 shadow">
+                                        <div class="d-flex">
                                         <div class="col-5">
-                                        <!-- Carousel START -->
-                                            <div
-                                            id="cardImageCarousel1"
-                                            class="carousel slide rounded-2 overflow-hidden"
-                                            data-bs-ride="carousel"
-                                            >
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                <img src="01.jpg" class="d-block w-100" alt="Card image 1" />
+                                            <!-- Carousel START -->
+                                                <div
+                                                id="cardImageCarousel1"
+                                                class="carousel slide rounded-2 overflow-hidden"
+                                                data-bs-ride="carousel"
+                                                >
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                    <img src="01.jpg" class="d-block w-100" alt="Card image 1" />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                    <img src="02.jpg" class="d-block w-100" alt="Card image 2" />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                    <img src="03.jpg" class="d-block w-100" alt="Card image 3" />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                    <img src="09.jpg" class="d-block w-100" alt="Card image 4" />
+                                                    </div>
                                                 </div>
-                                                <div class="carousel-item">
-                                                <img src="02.jpg" class="d-block w-100" alt="Card image 2" />
+                                                <button
+                                                    class="carousel-control-prev"
+                                                    type="button"
+                                                    data-bs-target="#cardImageCarousel1"
+                                                    data-bs-slide="prev"
+                                                >
+                                                    <span
+                                                    class="carousel-control-prev-icon"
+                                                    aria-hidden="true"
+                                                    ></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button
+                                                    class="carousel-control-next"
+                                                    type="button"
+                                                    data-bs-target="#cardImageCarousel1"
+                                                    data-bs-slide="next"
+                                                >
+                                                    <span
+                                                    class="carousel-control-next-icon"
+                                                    aria-hidden="true"
+                                                    ></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
                                                 </div>
-                                                <div class="carousel-item">
-                                                <img src="03.jpg" class="d-block w-100" alt="Card image 3" />
-                                                </div>
-                                                <div class="carousel-item">
-                                                <img src="09.jpg" class="d-block w-100" alt="Card image 4" />
-                                                </div>
-                                            </div>
-                                            <button
-                                                class="carousel-control-prev"
-                                                type="button"
-                                                data-bs-target="#cardImageCarousel1"
-                                                data-bs-slide="prev"
-                                            >
-                                                <span
-                                                class="carousel-control-prev-icon"
-                                                aria-hidden="true"
-                                                ></span>
-                                                <span class="visually-hidden">Previous</span>
-                                            </button>
-                                            <button
-                                                class="carousel-control-next"
-                                                type="button"
-                                                data-bs-target="#cardImageCarousel1"
-                                                data-bs-slide="next"
-                                            >
-                                                <span
-                                                class="carousel-control-next-icon"
-                                                aria-hidden="true"
-                                                ></span>
-                                                <span class="visually-hidden">Next</span>
-                                            </button>
-                                            </div>
-                                            <!-- Carousel END -->
-                                            <a class="text-blue fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                                 <i class="fa-solid fa-circle-info"></i> See Details
-                                            </a>
-                                            <!-- Modal -->
-                                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                    <div class="modal-dialog">
-                                                        <div class="modal-content">
-                                                            <div class="modal-header">
-                                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Room Detail</h1>
-                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                            </div>
-                                                            <div class="modal-body p-3">
-                                                                <!-- Carousel START -->
-                                                                    <div
-                                                                    id="cardImageCarouseldetail1"
-                                                                    class="carousel slide rounded-2 overflow-hidden"
-                                                                    data-bs-ride="carousel"
-                                                                    >
-                                                                    <div class="carousel-inner">
-                                                                        <div class="carousel-item active">
-                                                                        <img src="01.jpg" class="d-block w-100" alt="Card image 1" />
+                                                <!-- Carousel END -->
+                                                <a class="text-blue fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    <i class="fa-solid fa-circle-info"></i> See Details
+                                                </a>
+                                                <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Room Detail</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body p-3">
+                                                                    <!-- Carousel START -->
+                                                                        <div
+                                                                        id="cardImageCarouseldetail1"
+                                                                        class="carousel slide rounded-2 overflow-hidden"
+                                                                        data-bs-ride="carousel"
+                                                                        >
+                                                                        <div class="carousel-inner">
+                                                                            <div class="carousel-item active">
+                                                                            <img src="01.jpg" class="d-block w-100" alt="Card image 1" />
+                                                                            </div>
+                                                                            <div class="carousel-item">
+                                                                            <img src="02.jpg" class="d-block w-100" alt="Card image 2" />
+                                                                            </div>
+                                                                            <div class="carousel-item">
+                                                                            <img src="03.jpg" class="d-block w-100" alt="Card image 3" />
+                                                                            </div>
+                                                                            <div class="carousel-item">
+                                                                            <img src="09.jpg" class="d-block w-100" alt="Card image 4" />
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="carousel-item">
-                                                                        <img src="02.jpg" class="d-block w-100" alt="Card image 2" />
+                                                                        <button
+                                                                            class="carousel-control-prev"
+                                                                            type="button"
+                                                                            data-bs-target="#cardImageCarouseldetail1"
+                                                                            data-bs-slide="prev"
+                                                                        >
+                                                                            <span
+                                                                            class="carousel-control-prev-icon"
+                                                                            aria-hidden="true"
+                                                                            ></span>
+                                                                            <span class="visually-hidden">Previous</span>
+                                                                        </button>
+                                                                        <button
+                                                                            class="carousel-control-next"
+                                                                            type="button"
+                                                                            data-bs-target="#cardImageCarouseldetail1"
+                                                                            data-bs-slide="next"
+                                                                        >
+                                                                            <span
+                                                                            class="carousel-control-next-icon"
+                                                                            aria-hidden="true"
+                                                                            ></span>
+                                                                            <span class="visually-hidden">Next</span>
+                                                                        </button>
                                                                         </div>
-                                                                        <div class="carousel-item">
-                                                                        <img src="03.jpg" class="d-block w-100" alt="Card image 3" />
-                                                                        </div>
-                                                                        <div class="carousel-item">
-                                                                        <img src="09.jpg" class="d-block w-100" alt="Card image 4" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <button
-                                                                        class="carousel-control-prev"
-                                                                        type="button"
-                                                                        data-bs-target="#cardImageCarouseldetail1"
-                                                                        data-bs-slide="prev"
-                                                                    >
-                                                                        <span
-                                                                        class="carousel-control-prev-icon"
-                                                                        aria-hidden="true"
-                                                                        ></span>
-                                                                        <span class="visually-hidden">Previous</span>
-                                                                    </button>
-                                                                    <button
-                                                                        class="carousel-control-next"
-                                                                        type="button"
-                                                                        data-bs-target="#cardImageCarouseldetail1"
-                                                                        data-bs-slide="next"
-                                                                    >
-                                                                        <span
-                                                                        class="carousel-control-next-icon"
-                                                                        aria-hidden="true"
-                                                                        ></span>
-                                                                        <span class="visually-hidden">Next</span>
-                                                                    </button>
-                                                                    </div>
-                                                                    <!-- Carousel END -->
-                                                                    <h4 class="my-2">Nama Room</h4>
-                                                                     
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                        <!-- Carousel END -->
+                                                                        <!-- modal content start -->
+                                                                            <div class="mx-2">
+                                                                            <h4 class="my-2">Nama Room</h4>
+                                                                            <p class="text-secondary fw-medium">Club rooms are well furnished with air conditioner, 32 inch LCD television and a mini bar. They have attached bathroom with showerhead and hair dryer and 24 hours supply of hot and cold running water. Complimentary wireless internet access is available. Additional amenities include bottled water, a safe and a desk.</p>
+                                                                            <h5 class="my-2">Aminities</h5>
+                                                                            <ul class="list-inline">
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>    
+                                                                                </ul>
+                                                                            </div>
+                                                                        <!-- modal content end -->
+                                                                        
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
                                         </div>
-
+                                        <div class="col-7 ms-4">
+                                            <h5>Nama Room</h5>
+                                            <ul class="d-flex list-inline justify-content-between mb-2 me-sm-3">
+                                                <li class="me-2 fw-semibold">Air Conditioning</li>
+                                                <li class="me-2 fw-semibold">Wifi</li>
+                                                <li class="me-2 fw-semibold">Kitchen</li>
+                                                <li class="me-2 fw-semibold">Pool</li>  
+                                            </ul>
+                                            <div id="collapseContent1" class="collapse">
+                                                <ul class="d-flex list-inline justify-content-between mb-2 me-sm-3">
+                                                    <li class="me-2 fw-semibold">Air Conditioning</li>
+                                                    <li class="me-2 fw-semibold">Wifi</li>
+                                                    <li class="me-2 fw-semibold">Kitchen</li>
+                                                    <li class="me-2 fw-semibold">Pool</li>  
+                                                </ul>
+                                            </div>
+                                            <button class="btn text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent1" aria-expanded="false" aria-controls="collapseContent" id="toggleButton">
+                                                <i class="fa-solid fa-angle-right"></i> See More
+                                            </button>
+                                            <p class="text-success">Free Cancellation till 7 Jan 2022</p>
+                                            <div class="bottom-0 d-flex justify-content-between">
+                                                <div class="d-flex ">
+                                                    <h5>$750</h5>
+                                                    <p>/day</p>
+                                                </div>
+                                                <a class="btn btn-primary fw-semibold h-80 me-4">Select Room</a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                <!-- list section end -->
+                                 <!-- list section start -->
+                                    <div class="card p-4 mb-4 border-0 shadow">
+                                        <div class="d-flex">
+                                        <div class="col-5">
+                                            <!-- Carousel START -->
+                                                <div
+                                                id="cardImageCarousel1"
+                                                class="carousel slide rounded-2 overflow-hidden"
+                                                data-bs-ride="carousel"
+                                                >
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                    <img src="01.jpg" class="d-block w-100" alt="Card image 1" />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                    <img src="02.jpg" class="d-block w-100" alt="Card image 2" />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                    <img src="03.jpg" class="d-block w-100" alt="Card image 3" />
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                    <img src="09.jpg" class="d-block w-100" alt="Card image 4" />
+                                                    </div>
+                                                </div>
+                                                <button
+                                                    class="carousel-control-prev"
+                                                    type="button"
+                                                    data-bs-target="#cardImageCarousel1"
+                                                    data-bs-slide="prev"
+                                                >
+                                                    <span
+                                                    class="carousel-control-prev-icon"
+                                                    aria-hidden="true"
+                                                    ></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button
+                                                    class="carousel-control-next"
+                                                    type="button"
+                                                    data-bs-target="#cardImageCarousel1"
+                                                    data-bs-slide="next"
+                                                >
+                                                    <span
+                                                    class="carousel-control-next-icon"
+                                                    aria-hidden="true"
+                                                    ></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                                </div>
+                                                <!-- Carousel END -->
+                                                <a class="text-blue fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    <i class="fa-solid fa-circle-info"></i> See Details
+                                                </a>
+                                                <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Room Detail</h1>
+                                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                                </div>
+                                                                <div class="modal-body p-3">
+                                                                    <!-- Carousel START -->
+                                                                        <div
+                                                                        id="cardImageCarouseldetail1"
+                                                                        class="carousel slide rounded-2 overflow-hidden"
+                                                                        data-bs-ride="carousel"
+                                                                        >
+                                                                        <div class="carousel-inner">
+                                                                            <div class="carousel-item active">
+                                                                            <img src="01.jpg" class="d-block w-100" alt="Card image 1" />
+                                                                            </div>
+                                                                            <div class="carousel-item">
+                                                                            <img src="02.jpg" class="d-block w-100" alt="Card image 2" />
+                                                                            </div>
+                                                                            <div class="carousel-item">
+                                                                            <img src="03.jpg" class="d-block w-100" alt="Card image 3" />
+                                                                            </div>
+                                                                            <div class="carousel-item">
+                                                                            <img src="09.jpg" class="d-block w-100" alt="Card image 4" />
+                                                                            </div>
+                                                                        </div>
+                                                                        <button
+                                                                            class="carousel-control-prev"
+                                                                            type="button"
+                                                                            data-bs-target="#cardImageCarouseldetail1"
+                                                                            data-bs-slide="prev"
+                                                                        >
+                                                                            <span
+                                                                            class="carousel-control-prev-icon"
+                                                                            aria-hidden="true"
+                                                                            ></span>
+                                                                            <span class="visually-hidden">Previous</span>
+                                                                        </button>
+                                                                        <button
+                                                                            class="carousel-control-next"
+                                                                            type="button"
+                                                                            data-bs-target="#cardImageCarouseldetail1"
+                                                                            data-bs-slide="next"
+                                                                        >
+                                                                            <span
+                                                                            class="carousel-control-next-icon"
+                                                                            aria-hidden="true"
+                                                                            ></span>
+                                                                            <span class="visually-hidden">Next</span>
+                                                                        </button>
+                                                                        </div>
+                                                                        <!-- Carousel END -->
+                                                                        <!-- modal content start -->
+                                                                            <div class="mx-2">
+                                                                            <h4 class="my-2">Nama Room</h4>
+                                                                            <p class="text-secondary fw-medium">Club rooms are well furnished with air conditioner, 32 inch LCD television and a mini bar. They have attached bathroom with showerhead and hair dryer and 24 hours supply of hot and cold running water. Complimentary wireless internet access is available. Additional amenities include bottled water, a safe and a desk.</p>
+                                                                            <h5 class="my-2">Aminities</h5>
+                                                                            <ul class="list-inline">
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>
+                                                                                    <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-success"></i> Swimming Pool</p></li>    
+                                                                                </ul>
+                                                                            </div>
+                                                                        <!-- modal content end -->
+                                                                        
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                        </div>
+                                        <div class="col-7 ms-4">
+                                            <h5>Nama Room</h5>
+                                            <ul class="d-flex list-inline justify-content-between mb-2 me-sm-3">
+                                                <li class="me-2 fw-semibold">Air Conditioning</li>
+                                                <li class="me-2 fw-semibold">Wifi</li>
+                                                <li class="me-2 fw-semibold">Kitchen</li>
+                                                <li class="me-2 fw-semibold">Pool</li>  
+                                            </ul>
+                                            <div id="collapseContent1" class="collapse">
+                                                <ul class="d-flex list-inline justify-content-between mb-2 me-sm-3">
+                                                    <li class="me-2 fw-semibold">Air Conditioning</li>
+                                                    <li class="me-2 fw-semibold">Wifi</li>
+                                                    <li class="me-2 fw-semibold">Kitchen</li>
+                                                    <li class="me-2 fw-semibold">Pool</li>  
+                                                </ul>
+                                            </div>
+                                            <button class="btn text-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContent1" aria-expanded="false" aria-controls="collapseContent" id="toggleButton">
+                                                <i class="fa-solid fa-angle-right"></i> See More
+                                            </button>
+                                            <p class="text-success">Free Cancellation till 7 Jan 2022</p>
+                                            <div class="bottom-0 d-flex justify-content-between">
+                                                <div class="d-flex ">
+                                                    <h5>$750</h5>
+                                                    <p>/day</p>
+                                                </div>
+                                                <a class="btn btn-primary fw-semibold h-80 me-4">Select Room</a>
+                                            </div>
+                                        </div>
+                                        </div>
                                     </div>
                                 <!-- list section end -->
                             <!-- room list end -->
+                            <!-- spacer -->
+                             <div class="my-5"></div>
+                            <!-- Hotel Policies Start -->
+                                <!-- Hotel Policies Title start -->
+                                    <h3 class="mb-0">Hotel Policies</h3>
+                                    <hr class="my-4">
+                                <!-- Hotel Policies Title end -->
+                                 <!-- hotel policies section start -->
+                                        <ul class="list-inline">
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-secondary"></i> This is a family farmhouse, hence we request you to not indulge.</p></li>
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-secondary"></i> This is a family farmhouse, hence we request you to not indulge.</p></li>
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-check mx-2 text-secondary"></i> This is a family farmhouse, hence we request you to not indulge.</p></li>
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-xmark mx-2 text-secondary"></i> This is a family farmhouse, hence we request you to not indulge.</p></li>    
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-circle-xmark mx-2 text-secondary"></i> This is a family farmhouse, hence we request you to not indulge.</p></li>    
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-arrow-right mx-2 text-secondary"></i> No parties or events</p></li>    
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-arrow-right mx-2 text-secondary"></i> No parties or events</p></li>    
+                                                <li><p class="my-2 fw-normal text-secondary"><i class="fa-solid fa-arrow-right mx-2 text-secondary"></i> No parties or events</p></li>    
+                                        </ul>
+                                 <!-- hotel policies section end -->
+                            <!-- Hotel Policies End -->
                         </div>
                     <!-- left section end --> 
                     <!-- right section start  --> 
-                        <div class="col-xl-5">
-                            <div class="card">
-                                <h3 class="mb-0">About this hotel</h3>
-                            </div>
+                        <div class="col-xl-5 px-2">
+                            <!-- card section start -->
+                                <div class="card rounded-4 p-3 px-4">
+                                    <!-- price start -->
+                                        <div class="d-flex justify-content-between">
+                                            <!-- normal price start -->
+                                                <div>
+                                                    <p class="text-secondary mb-0">
+                                                        Price Start at
+                                                    </p>
+                                                    <h4>$3,500 </h4>
+                                                </div>
+                                                <div class="pt-1">
+                                                    <p class="fw-medium mb-0">1 room per night</p>
+                                                    <p class="text-secondary small">+$285 taxes & fees</p>
+                                                </div>
+                                                <!-- normal price end -->
+                                            </div>
+                                            <!-- price end -->
+                                        <ul class="list-inline">
+                                            <li><p class="my-2 fw-normal"><i class="fa-solid fa-arrow-right mx-2"></i> 4.5 <i class="fa-solid fa-star ms-2"></i><i class="fa-solid fa-star ms-2"></i><i class="fa-solid fa-star ms-2"></i><i class="fa-solid fa-star-half-stroke ms-2"></i><i class="fa-regular fa-star ms-2"></i></p></li>    
+                                            <li><p class="my-2 fw-normal"><i class="fa-solid fa-arrow-right mx-2"></i> Free breakfast available</p></li>    
+                                        </ul>
+                                        <button class="btn btn-primary fw-semibold rounded-4 mx-3 py-2">
+                                            View Any Room
+                                        </button>
+                                </div>
+                            <!-- card section end -->
+                            <!-- blog section start -->
+                                <div class="py-4">
+                                    <div class="mt-4 d-none d-xl-block">
+                                        <h4>Today's Best Deal</h4>
+
+                                        <div class="card shadow rounded-3 overflow-hidden">
+                                            <div class="row g-0 align-items-center">
+                                                <!-- Image -->
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <img src="04.jpg" class="card-img rounded-0" alt="">
+                                                </div>
+
+                                                <!-- Title and content -->
+                                                <div class="col-sm-6 col-md-12 col-lg-6">
+                                                    <div class="card-body p-3">
+                                                        <h6 class="card-title"><a href="offer-detail.html" class="stretched-link">Travel Plan</a></h6>
+                                                        <p class="mb-0 text-secondary fw-small">Get up to $10,000 for lifetime limits</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- item blog end -->
+                                </div>
+                            <!-- blog section end -->
                         </div>
                     <!-- right section end --> 
                    
                 </div>
             <!-- content end -->
-
+        <!-- spacer -->
+            <div class="my-5"></div>
         </div>
     <!-- body end -->
     <script src="script.js"></script>

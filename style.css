@@ -97,3 +97,18 @@ h6, .h6 {
 .fa-star,.fa-star-half-stroke{
   color: #ffd700;
 }
+.carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+.carousel-item .col-6 {
+  padding: 0 5px; /* Memberi jarak antar gambar */
+}
+.carousel-inner {
+  padding: 10px 0; /* Memberi sedikit ruang di atas dan bawah gambar */
+}
+.btn-costume {
+  --bs-btn-padding-x: 0.55rem; 
+  --bs-btn-padding-y: 0.15rem; 
+  --bs-btn-font-size: 0.8rem;
+}

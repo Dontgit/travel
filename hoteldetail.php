@@ -17,7 +17,7 @@
             <!-- spacer -->
              <div class="my-5"></div>
             <!-- title start -->
-                <h1>Nama Hotel By 24 Travel</h1>
+                <h2>Nama Hotel By 24 Travel</h2>
                 <!-- location start  -->
                     <p class="fw-semibold text-secondary"><i class="fa-solid fa-location-dot m-1 mx-2"></i>5855 W Century Blvd, Los Angeles - 90045</p>
                 <!-- location end  -->
@@ -608,6 +608,7 @@
                             <!-- card section end -->
                             <!-- blog section start -->
                                 <div class="py-4">
+                                    <!-- item blog start -->
                                     <div class="mt-4 d-none d-xl-block">
                                         <h4>Today's Best Deal</h4>
 

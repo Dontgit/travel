@@ -112,3 +112,6 @@ h6, .h6 {
   --bs-btn-padding-y: 0.15rem; 
   --bs-btn-font-size: 0.8rem;
 }
+.custom-margin {
+  margin-top: -120px; /* Sesuaikan ukuran sesuai kebutuhan */
+}
